@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-cards {
+    
+    /* border: 1px solid; */
+    margin: 20px 23px 0 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+}
+
+.container-card {
+    border-radius:9px ;
+    width: 300px;
+    height: 370px;
+    margin: 20px;
+    background-color: #ecf2f8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px #bbbbbb;
+    /* border: #B08E6B solid 1px; */
+}
+
+.container-card ul  {
+  margin: 20px;
+  margin-bottom:100px ;
+  margin-bottom: 60px;
+  /* border: 1px solid; */
+}
+.container-card ul li {
+    padding: 5px;
+    font-size: 20px;
+  }
+
+.agenda{
+    border: none;
+    background-color:  #B08E6B;
+    padding: 15px;
+    width: 160px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    color: white;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.agenda:hover{
+    background-color:white ;
+    color: black;
+    border: black solid 1px;
+    transition: 0.4s;
+}
+.precoh1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:40px ;
+    font-weight: 500;
+    
+}
+h3{
+    font-size: 20px;
+}
+h2{
+    margin-left:120px ;
+}
+

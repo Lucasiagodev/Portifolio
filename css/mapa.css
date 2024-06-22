@@ -1,0 +1,21 @@
+.mapa{
+  
+    margin: 40px 70px 0 70px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf2f8;
+}
+.mapa h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 160px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.mapa h3{
+    font-size: 30px;
+}
