@@ -54,3 +54,26 @@ hr{
     transform: scale(1.2);
     transition: transform 0.2s linear;
 }
+
+@media screen and (max-width: 360px){
+     .h2fotos1{
+       
+        margin: auto ;
+        text-align: center;
+        margin-top: 30PX;
+    }
+    hr{
+        border: none;
+        border-top: 3px solid #B08E6B;
+        width: 200px;
+        margin-left: 95px;
+    }
+    .h2fotos4{
+        font-size: 30px;
+        margin: auto;
+        text-align: center;
+    }
+  
+}
+
+

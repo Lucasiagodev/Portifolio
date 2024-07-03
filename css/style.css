@@ -1,58 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 /* HEADER NAV-BAR */
- *{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Nunito;
     font-weight: normal;
 }
-html{
+
+html {
     background-color: #eeeeee;
     box-shadow: 0 3px 6px #464646;
 }
-body{
-    margin: 0 26px 0 26px ;
+
+body {
+    margin: 0 26px 0 26px;
     background-color: #ffffff;
     box-shadow: 0 3px 6px #464646;
 }
-header{
+
+header {
     background-color: #B08E6B;
     box-shadow: 0 3px 6px #464646;
-    
+
 }
-.nav-bar{
+
+.nav-bar {
     display: flex;
     justify-content: space-between;
     padding: 1rem 6rem;
+   
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
 }
-.logo h1{
+
+.logo h1 {
     color: white;
 }
-.nav-list{
+
+.nav-list {
     display: flex;
     align-items: center;
 }
-.nav-list ul{
+
+.nav-list ul {
     display: flex;
     list-style: none;
 }
-.nav-item{
+
+.nav-item {
     margin: 0 15px;
 }
-.nav-link{
+
+.nav-link {
     text-decoration: none;
     font-size: 1.15rem;
     color: white;
     font-weight: 400;
     padding: 10px;
     border-radius: 8px;
-} 
-.nav-linka{
+}
+
+.nav-linka {
     text-decoration: none;
     font-size: 1.15rem;
     color: white;
@@ -60,55 +73,122 @@ header{
     background-color: #574738;
     padding: 10px;
     border-radius: 8px;
-} 
-.nav-link:hover{
+}
+
+.nav-link:hover {
     background-color: #574738;
-   transition: 0.6s;
+    transition: 0.6s;
 }
-.mobile-menu-icons{
+
+.mobile-menu-icons {
     display: none;
 }
-.mobile-menu{
+
+.mobile-menu {
     display: none;
-} 
+}
+
 /*  LOGO IMAGEM */
 
- .foto-logo{
+.foto-logo {
     position: relative;
 }
-.legenda{
+
+.legenda {
     position: absolute;
     bottom: 160px;
     left: 60px;
-   
+
 
 }
-.legenda h1{
+
+.legenda h1 {
     margin: 0;
     font-size: 3.2rem;
     color: #ffffff;
     font-weight: 200;
-    
-} 
- 
 
- /* area de texto  */
- .texto{
+}
+
+
+/* area de texto  */
+.texto {
     text-align: center;
     margin-top: 40px;
 }
-.texto h2{
+
+.texto h2 {
     font-weight: 700;
 }
-.texto-section{
-    margin: 0 50px 0 50px ;
+
+.texto-section {
+    margin: 0 50px 0 50px;
     text-align: left;
     text-indent: 30px;
     margin-top: 20px;
     font-size: 18px;
 
-}  
+}
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 360px) {
+    body{
+        margin: 0;
 
-} 
+    }
+    .nav-bar{
+        padding: 20px;
+    }
+    .nav-item{
+        display: none;
+    }
+    .mobile-menu-icons{
+        display: block;
+       
+    }
+    .mobile-menu-icons button{
+        background: transparent;
+        border: none;
+        cursor: pointer;
+       
+        
+    }
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item{
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .open{
+        display: block;
+    }
+    /* ////////////// */
+    .legenda {
+        position: absolute;
+        bottom: 40px;
+        left: 20px;
+        font-weight: 400;
+    }
+    .legenda h1 {
+        
+        font-size: 2.1rem;
+        color: #ffffff;
+        font-weight: 300;
+    }
+     .h2 {
+        font-weight: 700;
+       
+        font-size: 18px;
+        margin: auto 50px;
+        margin-top: 14px;
+        text-align: center;
+    }
+    .texto-section{
+        text-align: justify;
+   
+}
+}
+    
