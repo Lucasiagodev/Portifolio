@@ -60,6 +60,7 @@
     color: black;
     border: black solid 1px;
     transition: 0.4s;
+    transform: scale(1.2);
 }
 .precoh1{
     font-family: Arial, Helvetica, sans-serif;
