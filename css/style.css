@@ -30,7 +30,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1rem 6rem;
-   
+
 }
 
 .logo {
@@ -121,6 +121,11 @@ header {
     font-weight: 700;
 }
 
+.h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
 .texto-section {
     margin: 0 50px 0 50px;
     text-align: left;
@@ -130,41 +135,66 @@ header {
 
 }
 
-@media screen and (max-width: 360px) {
-    body{
+@media screen and (max-width: 890px) {
+    .legenda {
+       
+        position: absolute;
+        bottom: 90px;
+        left: 50px;
+        font-weight: 400;
+    }
+
+    .legenda h1 {
+
+        font-size: 2.9rem;
+        color: #ffffff;
+        font-weight: 300;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    body {
         margin: 0;
 
     }
-    .nav-bar{
+
+    .nav-bar {
         padding: 20px;
     }
-    .nav-item{
+
+    .nav-item {
         display: none;
     }
-    .mobile-menu-icons{
+
+    .mobile-menu-icons {
         display: block;
-       
+
     }
-    .mobile-menu-icons button{
+
+    .mobile-menu-icons button {
         background: transparent;
         border: none;
         cursor: pointer;
-       
-        
+
+
     }
-    .mobile-menu ul{
+
+    .mobile-menu ul {
         display: flex;
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
     }
-    .mobile-menu .nav-item{
+
+    .mobile-menu .nav-item {
         display: block;
         padding-top: 1.2rem;
     }
-    .open{
+
+    .open {
         display: block;
     }
+
     /* ////////////// */
     .legenda {
         position: absolute;
@@ -172,23 +202,25 @@ header {
         left: 20px;
         font-weight: 400;
     }
+
     .legenda h1 {
-        
+
         font-size: 2.1rem;
         color: #ffffff;
         font-weight: 300;
     }
-     .h2 {
+
+    .h2 {
         font-weight: 700;
-       
+
         font-size: 18px;
         margin: auto 50px;
         margin-top: 14px;
         text-align: center;
     }
-    .texto-section{
+
+    .texto-section {
         text-align: justify;
-   
+
+    }
 }
-}
-    
