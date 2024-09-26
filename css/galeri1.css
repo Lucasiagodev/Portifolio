@@ -55,12 +55,20 @@ hr{
     transition: transform 0.2s linear;
 }
 
+@media screen and (max-width: 720px){
+    .container .container-image .image {
+        width: 350px; /* Aumentei a largura */
+        height: 350px; /* Aumentei a altura */
+  
+}
+}
+
 @media screen and (max-width: 360px){
      .h2fotos1{
        
         margin: auto ;
         text-align: center;
-        margin-top: 30PX;
+        margin-top: 30px;
     }
     hr{
         border: none;
@@ -73,7 +81,12 @@ hr{
         margin: auto;
         text-align: center;
     }
+    .container .container-image .image {
+        width: 350px; /* Aumentei a largura */
+        height: 350px; /* Aumentei a altura */
   
+}
+
 }
 
 
