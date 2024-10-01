@@ -39,7 +39,8 @@
 }
 .container-card ul li {
     padding: 5px;
-    font-size: 20px;
+    font-size: 18px;
+    list-style: none;
   }
 
 .agenda{
@@ -51,23 +52,52 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: medium;
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: 9px;
     cursor: pointer;
 }
-.agenda:hover{
+.agenda1{
+    border: none;
+    background-color:  #B08E6B;
+    padding: 15px;
+    width: 160px;
+    height: 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    border-radius: 9px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+/* .agenda:hover{
     background-color:white ;
     color: black;
     border: black solid 1px;
     transition: 0.4s;
     transform: scale(1.2);
-}
+} */
+
+
 .precoh1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size:40px ;
+    font-size:30px ;
     font-weight: 500;
     
 }
+.teste{
+    width: 300px;
+    height: 250px;
+    border-radius: 9px 9px 25px 25px / 9px 9px 10px 10px ;
+    position: absolute;
+    margin-bottom: 120px;
+    background-color: #ecdbec;
+}
+.precoh1, h3 , .preço{
+    position: relative;
+}
+
 h3{
     font-size: 20px;
 }
@@ -75,6 +105,14 @@ h2{
     margin-left:120px ;
 }
 @media  screen and (max-width: 360px) {
-    
+    .teste{
+        margin: auto;
+        width: 275px;
+        height: 250px;
+        border-radius: 9px 9px 25px 25px / 9px 9px 10px 10px ;
+        position: absolute;
+        margin-bottom: 120px;
+        background-color: #ecdbec;
+    }
 }
 
